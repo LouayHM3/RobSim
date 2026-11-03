@@ -25,6 +25,20 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
+# Local C++ builds and portable tools
+.tools/
+build*/
+out/
+CMakeUserPresets.json
+compile_commands.json
+*.exe
+*.dll
+*.obj
+*.o
+*.a
+*.lib
+*.pdb
+
 # Keep the checked-in example results; ignore new local runs
 results/*
 !results/all/

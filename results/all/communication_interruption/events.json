@@ -1,13 +1,13 @@
 [
   {
-    "level": "WARNING",
     "code": "COMMUNICATION_INTERRUPTION",
+    "level": "WARNING",
     "message": "fault active: communication_interruption",
     "time": 0.3
   },
   {
-    "level": "ERROR",
     "code": "SAFE_STATE",
+    "level": "ERROR",
     "message": "sensor dropout limit exceeded",
     "time": 0.32
   }

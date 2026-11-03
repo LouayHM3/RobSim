@@ -1,7 +1,7 @@
 [
   {
-    "level": "ERROR",
     "code": "SAFE_STATE",
+    "level": "ERROR",
     "message": "position error limit exceeded",
     "time": 0.0
   }

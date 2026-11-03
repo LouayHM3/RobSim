@@ -1,13 +1,18 @@
-# Test results
+# Reproduce test results
 
-Run:
-
-```console
-python -m pytest
-python -m robosim verify scenarios --output results/verification
+```sh
+cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+cmake --build build --config Release --parallel
+ctest --test-dir build -C Release --output-on-failure
 ```
 
-The test suite validates deterministic nominal tracking, dropout safe-state
-behavior, bounded control output, and generated report artifacts. The scenario
-command produces one independently inspectable bundle per YAML configuration.
-All numeric results are generated at execution time rather than embedded claims.
+CTest writes logs under `build/Testing/Temporary` and scenario bundles under
+`build/verification`. Run the CLI directly on Visual Studio builds with:
+
+```powershell
+.\build\Release\robosim.exe verify scenarios --output results/verification
+```
+
+Linux/macOS uses `./build/robosim`; single-configuration Windows builds use
+`.\build\robosim.exe`. The [example summary](../results/all/summary.md) and reports
+are generated data, not a substitute for testing your current build.

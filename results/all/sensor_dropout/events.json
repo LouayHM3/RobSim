@@ -1,13 +1,13 @@
 [
   {
-    "level": "WARNING",
     "code": "SENSOR_DROPOUT",
+    "level": "WARNING",
     "message": "fault active: sensor_dropout",
     "time": 0.0
   },
   {
-    "level": "ERROR",
     "code": "SAFE_STATE",
+    "level": "ERROR",
     "message": "sensor dropout limit exceeded",
     "time": 0.02
   }

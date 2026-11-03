@@ -1,13 +1,13 @@
 [
   {
-    "level": "WARNING",
     "code": "SENSOR_DRIFT",
+    "level": "WARNING",
     "message": "fault active: sensor_drift",
     "time": 0.5
   },
   {
-    "level": "ERROR",
     "code": "SAFE_STATE",
+    "level": "ERROR",
     "message": "position error limit exceeded",
     "time": 1.82
   }

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="500" viewBox="0 0 960 500" role="img" aria-labelledby="title description">
+<title id="title">communication_interruption: tracking error</title>
+<desc id="description">Fixed-step RoboSim C++ simulation. Time is in seconds; position uses scenario units.</desc>
+<rect width="960" height="500" fill="#0f172a"/>
+<g font-family="Arial, sans-serif" fill="#e2e8f0">
+<text x="90" y="40" font-size="24" font-weight="bold">communication_interruption</text>
+<text x="90" y="67" font-size="14" fill="#94a3b8">Tracking error</text>
+<path d="M 90.000 110 V 420" stroke="#243247"/>
+<path d="M 90 420.000 H 910" stroke="#243247"/>
+<text x="90.000" y="445" text-anchor="middle" font-size="12">0.000</text>
+<text x="78" y="424.000" text-anchor="end" font-size="12">-0.120</text>
+<path d="M 254.000 110 V 420" stroke="#243247"/>
+<path d="M 90 358.000 H 910" stroke="#243247"/>
+<text x="254.000" y="445" text-anchor="middle" font-size="12">0.200</text>
+<text x="78" y="362.000" text-anchor="end" font-size="12">0.128</text>
+<path d="M 418.000 110 V 420" stroke="#243247"/>
+<path d="M 90 296.000 H 910" stroke="#243247"/>
+<text x="418.000" y="445" text-anchor="middle" font-size="12">0.400</text>
+<text x="78" y="300.000" text-anchor="end" font-size="12">0.376</text>
+<path d="M 582.000 110 V 420" stroke="#243247"/>
+<path d="M 90 234.000 H 910" stroke="#243247"/>
+<text x="582.000" y="445" text-anchor="middle" font-size="12">0.600</text>
+<text x="78" y="238.000" text-anchor="end" font-size="12">0.624</text>
+<path d="M 746.000 110 V 420" stroke="#243247"/>
+<path d="M 90 172.000 H 910" stroke="#243247"/>
+<text x="746.000" y="445" text-anchor="middle" font-size="12">0.800</text>
+<text x="78" y="176.000" text-anchor="end" font-size="12">0.872</text>
+<path d="M 910.000 110 V 420" stroke="#243247"/>
+<path d="M 90 110.000 H 910" stroke="#243247"/>
+<text x="910.000" y="445" text-anchor="middle" font-size="12">1.000</text>
+<text x="78" y="114.000" text-anchor="end" font-size="12">1.120</text>
+<path d="M 90 110 V 420 H 910" fill="none" stroke="#94a3b8"/>
+<path d="M 90 390.000 H 910" stroke="#64748b" stroke-dasharray="5 4"/>
+<polyline fill="none" stroke="#38bdf8" stroke-width="2.5" stroke-linejoin="round" points="90.000,140.000 98.200,140.199 106.400,140.498 114.600,140.894 122.800,141.387 131.000,141.976 139.200,142.661 147.400,143.441 155.600,144.314 163.800,145.280 172.000,146.337 180.200,147.485 188.400,148.723 196.600,150.049 204.800,151.463 213.000,152.963 221.200,154.548 229.400,156.217 237.600,157.969 245.800,159.802 254.000,161.716 262.200,163.708 270.400,165.779 278.600,167.925 286.800,170.147 295.000,172.442 303.200,174.810 311.400,177.248 319.600,179.756 327.800,182.331 336.000,184.974 344.200,187.681 352.400,190.383 360.600,193.079 368.800,195.770 377.000,198.456 385.200,201.136 393.400,203.811 401.600,206.481 409.800,209.145 418.000,211.804 426.200,214.457 434.400,217.106 442.600,219.749 450.800,222.386 459.000,225.019 467.200,227.646 475.400,230.268 483.600,232.884 491.800,235.496 500.000,238.102 508.200,240.703 516.400,243.299 524.600,245.889 532.800,248.475 541.000,251.055 549.200,253.630 557.400,256.200 565.600,258.765 573.800,261.324 582.000,263.879 590.200,266.428 598.400,268.973 606.600,271.512 614.800,274.046 623.000,276.575 631.200,279.099 639.400,281.618 647.600,284.132 655.800,286.641 664.000,289.145 672.200,291.644 680.400,294.138 688.600,296.627 696.800,299.111 705.000,301.590 713.200,304.064 721.400,306.533 729.600,308.997 737.800,311.456 746.000,313.910 754.200,316.360 762.400,318.804 770.600,321.244 778.800,323.678 787.000,326.108 795.200,328.533 803.400,330.953 811.600,333.368 819.800,335.779 828.000,338.185 836.200,340.585 844.400,342.981 852.600,345.373 860.800,347.759 869.000,350.141 877.200,352.518 885.400,354.890 893.600,357.257 901.800,359.620 910.000,361.978 "/>
+<text x="500" y="480" text-anchor="middle" font-size="14">Time (s)</text>
+<text transform="translate(23 265) rotate(-90)" text-anchor="middle" font-size="14">Tracking error (scenario units)</text>
+</g>
+</svg>
