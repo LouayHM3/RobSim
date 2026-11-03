@@ -11,20 +11,16 @@ option(ROBOSIM_USE_SYSTEM_DEPS "Use installed yaml-cpp and nlohmann_json package
 option(ROBOSIM_SANITIZERS "Enable address and undefined behavior sanitizers" OFF)
 
 if(ROBOSIM_USE_SYSTEM_DEPS)
-  find_package(yaml-cpp 0.8 CONFIG REQUIRED)
+  find_package(yaml-cpp 0.9 CONFIG REQUIRED)
   find_package(nlohmann_json 3.11 CONFIG REQUIRED)
 else()
-  # yaml-cpp 0.8 declares a pre-3.5 minimum; CMake 4 needs this policy floor.
-  if(CMAKE_VERSION VERSION_GREATER_EQUAL 4.0)
-    set(CMAKE_POLICY_VERSION_MINIMUM 3.5)
-  endif()
   set(YAML_CPP_BUILD_TESTS OFF CACHE BOOL "" FORCE)
   set(YAML_CPP_BUILD_TOOLS OFF CACHE BOOL "" FORCE)
   set(YAML_CPP_INSTALL OFF CACHE BOOL "" FORCE)
   set(JSON_BuildTests OFF CACHE BOOL "" FORCE)
   FetchContent_Declare(yaml-cpp
-    URL https://github.com/jbeder/yaml-cpp/archive/refs/tags/0.8.0.tar.gz
-    URL_HASH SHA256=fbe74bbdcee21d656715688706da3c8becfd946d92cd44705cc6098bb23b3a16
+    URL https://github.com/jbeder/yaml-cpp/archive/refs/tags/yaml-cpp-0.9.0.tar.gz
+    URL_HASH SHA256=25cb043240f828a8c51beb830569634bc7ac603978e0f69d6b63558dadefd49a
     DOWNLOAD_EXTRACT_TIMESTAMP TRUE)
   FetchContent_Declare(nlohmann_json
     URL https://github.com/nlohmann/json/archive/refs/tags/v3.11.3.tar.gz
