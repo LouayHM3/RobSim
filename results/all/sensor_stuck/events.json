@@ -1,0 +1,14 @@
+[
+  {
+    "level": "WARNING",
+    "code": "SENSOR_STUCK",
+    "message": "fault active: sensor_stuck",
+    "time": 0.2
+  },
+  {
+    "level": "ERROR",
+    "code": "SAFE_STATE",
+    "message": "sensor stuck fault detected",
+    "time": 0.2
+  }
+]

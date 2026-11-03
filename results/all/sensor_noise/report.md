@@ -1,0 +1,45 @@
+# RoboSim report: sensor_noise
+
+Status: **PASS**
+
+## Metrics
+
+- **scenario**: sensor_noise
+- **passed**: True
+- **reason**: pass
+- **samples**: 201
+- **duration**: 2.0
+- **max_error**: 0.9995851037834553
+- **peak_error**: 0.9995851037834553
+- **rmse**: 0.5741380806163018
+- **final_error**: 0.4247527059318008
+- **steady_state_error**: 0.48748834405169605
+- **mean_absolute_error**: 0.5151131772351475
+- **integral_absolute_error**: 1.0353774862426466
+- **integral_squared_error**: 0.66256541658368
+- **overshoot**: 0.5937729001838845
+- **settling_time**: None
+- **rise_time**: 0.81
+- **max_command**: 10.0
+- **control_effort**: 4.941160010668059
+- **saturation_fraction**: 0.736318407960199
+- **max_velocity**: 1.6030694918178492
+- **position_limit_violations**: 0
+- **velocity_limit_violations**: 0
+- **command_limit_violations**: 0
+- **actuator_velocity_violations**: 0
+- **actuator_acceleration_violations**: 0
+- **acceleration_limit_violations**: 0
+- **mean_measurement_age**: 0.0
+- **safe_state_time**: None
+- **fault_count**: 0
+- **diagnostic_count**: 0
+- **safe_state**: False
+- **emergency_stop**: False
+- **invalid_readings**: 0
+- **fault_detection_latency**: None
+- **feedback_delay_diagnostics**: 0
+- **sensor_unchanged_diagnostics**: 0
+
+## Diagnostics
+

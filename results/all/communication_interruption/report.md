@@ -1,0 +1,47 @@
+# RoboSim report: communication_interruption
+
+Status: **PASS**
+
+## Metrics
+
+- **scenario**: communication_interruption
+- **passed**: True
+- **reason**: pass
+- **samples**: 101
+- **duration**: 1.0
+- **max_error**: 0.9995998
+- **peak_error**: 0.9995998
+- **rmse**: 0.6630532296529419
+- **final_error**: 0.1120439626894214
+- **steady_state_error**: 0.15469751103846335
+- **mean_absolute_error**: 0.6004144832873047
+- **integral_absolute_error**: 0.6064186281201778
+- **integral_squared_error**: 0.4440359812067289
+- **overshoot**: 0.0
+- **settling_time**: None
+- **rise_time**: None
+- **max_command**: 4.002
+- **control_effort**: 1.1460673484950346
+- **saturation_fraction**: 0.32673267326732675
+- **max_velocity**: 1.082461573652197
+- **position_limit_violations**: 0
+- **velocity_limit_violations**: 0
+- **command_limit_violations**: 0
+- **actuator_velocity_violations**: 0
+- **actuator_acceleration_violations**: 0
+- **acceleration_limit_violations**: 0
+- **mean_measurement_age**: 0.0
+- **safe_state_time**: 0.32
+- **fault_count**: 71
+- **diagnostic_count**: 2
+- **safe_state**: True
+- **emergency_stop**: False
+- **invalid_readings**: 71
+- **fault_detection_latency**: 0.020000000000000018
+- **feedback_delay_diagnostics**: 0
+- **sensor_unchanged_diagnostics**: 0
+
+## Diagnostics
+
+- `0.300s` WARNING COMMUNICATION_INTERRUPTION: fault active: communication_interruption
+- `0.320s` ERROR SAFE_STATE: sensor dropout limit exceeded

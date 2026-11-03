@@ -1,0 +1,6 @@
+name: sensor_drift
+duration: 2.0
+dt: 0.01
+target: 1.0
+acceptance: {expected_safe: true}
+faults: [{type: sensor_drift, start: 0.5, end: 2.0, rate: 3.0}]

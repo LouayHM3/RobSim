@@ -1,0 +1,14 @@
+[
+  {
+    "level": "WARNING",
+    "code": "EMERGENCY_STOP",
+    "message": "fault active: emergency_stop",
+    "time": 0.35000000000000003
+  },
+  {
+    "level": "ERROR",
+    "code": "SAFE_STATE",
+    "message": "emergency stop requested",
+    "time": 0.35000000000000003
+  }
+]

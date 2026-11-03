@@ -1,0 +1,7 @@
+name: sensor_dropout
+duration: 1.0
+dt: 0.01
+target: 1.0
+acceptance: {expected_safe: true}
+sensor: {dropout: true}
+safety: {dropout_limit: 3}
